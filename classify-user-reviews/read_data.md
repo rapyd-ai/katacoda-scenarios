@@ -6,11 +6,14 @@ If you don't have a text file at hand, or if you want to look at a sample, you c
 
 To copy your file from a remote URL to this training machine, execute the following command and replace the url with your file accoringly:
 
-`quit()
+```
+quit()
 wget -O "data/reviews.csv" "https://insert-your-url.here/
-python3`
+python3
+```
 
 To check if the import was successful, run:
 
-`revies_df.head()`{{execute}} 
+`reviews_df.head()`{{execute}} 
+
 This should print the first couple of text reviews.
