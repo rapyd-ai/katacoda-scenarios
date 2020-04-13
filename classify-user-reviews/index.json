@@ -1,0 +1,51 @@
+{
+  "title": "Classify User Reviews",
+  "description": "Using Sentiment analysis to convert review text into star rating schema",
+  "difficulty": "beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [
+    {
+      "title": "Load dataset",
+      "text": "read_data.md"
+    },
+    {
+      "title": "Inspect dataset",
+      "text": "documents.md"
+    },
+    {
+      "title": "Test Sentiment Scores",
+      "text": "tokenizing.md"
+    },
+    {
+      "title": "Enrich Dataset with Sentiment Scores words",
+      "text": "word_count.md"
+    },
+    {
+      "title": "Convert Sentiment Score to Star Rating",
+      "text": "punctuation.md"
+    },
+	{
+      "title": "Inspect Star Rating",
+      "text": "punctuation.md"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [{"file": "rapyd_ai_utils.py", "target": "~/"}]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart using `python` command\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "tensorflow"
+  }
+}
