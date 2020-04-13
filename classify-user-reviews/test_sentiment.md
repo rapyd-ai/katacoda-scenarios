@@ -16,8 +16,8 @@ token = 'your-temporary-token'
 Now, let's define some sample text. You can assign any text you like or use our sample text here:
 
 ```
-text = "I am getting coverage drops."{{execute}}
-```
+text = "I am getting coverage drops."
+```{{execute}}
 
 All you have to do is call the function get_sentiment_score and provide the text to analyse, the backend provider, the language (Auto detect is default), your AcocuntID and your token:
 
