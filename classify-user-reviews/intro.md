@@ -1,12 +1,7 @@
 Natural Language Processing aggregates several tasks that can be performed, like:
 
-* Part of speech tagging
-* Word segmentation
-* Named entity recognition
-* Machine translation
-* Question answering
-* Sentiment analysis
-* Topic segmentation and recognition
-* Natural language generation
+User reviews have become the driving force behind e-commerce transactions. However, these reviews are often not as clear as they appear to be. Text mining can help us to detect sentiment in user reviews and classify the reviews based on their sentiment scores.
 
-It all starts though with preparing text for further processing. In this lab you will learn how to use some vanilla Python to clean and prepare text data.
+For this tutorial, we are using RAPYD.AI to access the text mining service.
+
+To use RAPYD.AI, sign up here for free.

@@ -6,6 +6,10 @@
   "details": {
     "steps": [
     {
+      "title": "Setup Environment",
+      "text": "setup.md"
+    },
+    {
       "title": "Load dataset",
       "text": "read_data.md"
     },
