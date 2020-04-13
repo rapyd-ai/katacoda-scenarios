@@ -5,6 +5,7 @@ Execute the following command to install some utility functions and load some sa
 ` cd /
 git clone https://github.com/rapyd-ai/use-cases.git
 pip install requests
+cd use-cases/classify-user-reviews/
 `{{execute}}
 
 Let's launch Python which will help us with some data preparation:

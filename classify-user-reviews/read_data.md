@@ -1,21 +1,16 @@
-To start working with Python use the following command:
+For this prototype, we will need a dataset with some user reviews. The data has to come as a csv file without header, where each line is one text review that we want to classify.
 
-`python`{{execute}}
+If you don't have a text file at hand, or if you want to look at a sample, you can just call the utility function:
 
-The first step in every text processing task is to read in the data. We'll be working with the Movie Reviews Corpus provided by the Python [nltk](https://www.nltk.org/) library. You don't have to worry about this now as we've prepared the code to read the data for you.
+`reviews_df = read_reviews()`{{execute}} 
 
-We've written the *read_reviews* function in the *data_reader* module to help you get started and focus on language processing rather than on specifics of the dataset and data reading techniques. The data will be read into *documents* variable.
+To copy your file from a remote URL to this training machine, execute the following command and replace the url with your file accoringly:
 
-`import data_reader
-documents = data_reader.read_reviews()`{{execute}}
+`quit()
+wget -O "data/reviews.csv" "https://insert-your-url.here/
+python3`
 
-Once the documents and labels are read you can have a look at the data.
-You can check the number of examples.
+To check if the import was successful, run:
 
-`len(documents)`{{execute}}
-
-As you can see we have 2000 reviews in the dataset. Pick and index number and see what some of then are doing.
-
-`example_idx = 75
-document = documents[example_idx]
-document`{{execute}}
+`revies_df.head()`{{execute}} 
+This should print the first couple of text reviews.
